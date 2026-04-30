@@ -172,13 +172,13 @@ namespace VAGSuite
             // hexBox1
             // 
             this.hexBox1.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.hexBox1.BoldFont = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // this.hexBox1.BoldFont = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))); // Not available in HexBox 1.6.1
             this.hexBox1.ColumnInfoVisible = true;
             resources.ApplyResources(this.hexBox1, "hexBox1");
             this.hexBox1.ForeColor = System.Drawing.Color.Black;
             this.hexBox1.GroupSeparatorVisible = true;
             this.hexBox1.GroupSize = 2;
-            this.hexBox1.LineInfoForeColor = System.Drawing.Color.DarkGray;
+            // this.hexBox1.LineInfoForeColor = System.Drawing.Color.DarkGray; // Not available in HexBox 1.6.1
             this.hexBox1.LineInfoVisible = true;
             this.hexBox1.Name = "hexBox1";
             this.hexBox1.ShadowSelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(60)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));

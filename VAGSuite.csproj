@@ -13,6 +13,8 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon>vagedc.ico</ApplicationIcon>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,33 +33,32 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Be.Windows.Forms.HexBox, Version=1.4.8.23985, Culture=neutral, PublicKeyToken=e0e5adf0ebc99863, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>temp_docs\dll_backup\Be.Windows.Forms.HexBox.dll</HintPath>
+    <Reference Include="Be.Windows.Forms.HexBox">
+      <HintPath>packages\Be.Windows.Forms.HexBox.1.6.1\lib\net40\Be.Windows.Forms.HexBox.dll</HintPath>
     </Reference>
     <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
-      <HintPath>packages\CsvHelper.2.16.3.0\lib\net35\CsvHelper.dll</HintPath>
+      <HintPath>packages\CsvHelper.2.16.3.0\lib\net40\CsvHelper.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>temp_docs\dll_backup\Microsoft.Office.Interop.Excel.dll</HintPath>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Office.Tools.Excel.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Office.Tools.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
-      <HintPath>packages\ZedGraph.5.1.7\lib\net35-Client\ZedGraph.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK, Version=3.3.3.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <HintPath>packages\OpenTK.3.3.3\lib\net20\OpenTK.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="OpenTK.GLControl, Version=3.3.3.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <HintPath>packages\OpenTK.GLControl.3.3.3\lib\net20\OpenTK.GLControl.dll</HintPath>
-      <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -88,11 +90,8 @@
     <Reference Include="AdvancedDataGridView">
       <HintPath>packages\DG.AdvancedDataGridView.1.2.30115.18\lib\net40\AdvancedDataGridView.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="nunit.framework, Version=2.6.4.0, Culture=neutral, PublicKeyToken=96dd096d9f64dab, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\ebircak.HQ\.nuget\packages\nunit\2.6.4\lib\nunit.framework.dll</HintPath>
+    <Reference Include="ZedGraph, Version=5.2.1.437, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>packages\ZedGraph.5.2.1\lib\net35-Client\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -150,7 +149,9 @@
     <Compile Include="Services\TurboCompressorService.cs" />
     <Compile Include="Services\MapDescriptionService.cs" />
     <Compile Include="Services\TooltipService.cs" />
-    <Compile Include="Services\WrappedTooltipForm.cs" />
+    <Compile Include="Services\WrappedTooltipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Services\IDataConversionService.cs" />
     <Compile Include="Services\DataConversionService.cs" />
     <Compile Include="Services\IMapRenderingService.cs" />
@@ -172,9 +173,15 @@
     <Compile Include="Services\MapViewerController.cs" />
     <Compile Include="Services\IMapDataService.cs" />
     <Compile Include="Services\MapDataService.cs" />
-    <Compile Include="Components\MapGridComponent.cs" />
-    <Compile Include="Components\Chart3DComponent.cs" />
-    <Compile Include="Components\Chart2DComponent.cs" />
+    <Compile Include="Components\MapGridComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\Chart3DComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\Chart2DComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Helpers\BilinearInterpolator.cs" />
     <Compile Include="Helpers\EOIMapFinder.cs" />
     <Compile Include="Helpers\EOICalculator.cs" />
@@ -329,21 +336,35 @@
     </Compile>
     <Compile Include="frmMain.KryptonDocking.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.KryptonRibbon.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.LayoutConstants.cs" />
+    <Compile Include="frmMain.LayoutConstants.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMain.SymbolList.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.KryptonStatus.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.DesignerHelpers.cs" />
-    <Compile Include="frmMain.DesignerInit.cs" />
-    <Compile Include="frmMain.DesignerInit2.cs" />
-    <Compile Include="frmMain.DesignerLayout.cs" />
+    <Compile Include="frmMain.DesignerHelpers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.DesignerInit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.DesignerInit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.DesignerLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPartNumberList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -580,6 +601,7 @@
     <EmbeddedResource Include="MapViewerEx.resx">
       <DependentUpon>MapViewerEx.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="OpenTK.dll.config" />
     <None Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -638,6 +660,7 @@
     <Compile Include="Tests\MapViewerExIntegrationTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="License-LGPL.txt" />
     <Content Include="vagedc.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
