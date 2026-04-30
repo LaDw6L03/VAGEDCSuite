@@ -1,3 +1,5 @@
+# Fork with the source code modified to work for me and a ready-to-use version for those who don't want to bother with Visual Studio Code
+
 # VAG EDC Suite
 
 A .NET-based tuning suite for Volkswagen Audi Group (VAG) Engine Control Units. This tool enables discovery, visualization, and modification of engine management maps in mostly Bosch EDC15 series ECUs.
