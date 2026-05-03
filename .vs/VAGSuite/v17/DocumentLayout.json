@@ -1,12 +1,193 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|c:\\users\\administrateur\\downloads\\vagedcsuite-master\\vagedcsuite-master\\xdfwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:xdfwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|c:\\users\\administrateur\\downloads\\vagedcsuite-master\\vagedcsuite-master\\msiupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:msiupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmabout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:frmabout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmabout.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:frmabout.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\resources\\ribbonicons\\aboutvagsuite.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:resources\\ribbonicons\\aboutvagsuite.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{22B05C9A-A827-42C1-AA70-06A46712955F}|VAGSuite.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|VAGSuite||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XDFWriter.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\XDFWriter.cs",
+              "RelativeDocumentMoniker": "XDFWriter.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\XDFWriter.cs",
+              "RelativeToolTip": "XDFWriter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:52:43.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "msiupdater.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\msiupdater.cs",
+              "RelativeDocumentMoniker": "msiupdater.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\msiupdater.cs",
+              "RelativeToolTip": "msiupdater.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:50:18.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:45:18.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAbout.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.cs",
+              "RelativeDocumentMoniker": "frmAbout.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.cs",
+              "RelativeToolTip": "frmAbout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:34:12.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmAbout.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.Designer.cs",
+              "RelativeDocumentMoniker": "frmAbout.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.Designer.cs",
+              "RelativeToolTip": "frmAbout.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:34:01.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmAbout.resx",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.resx",
+              "RelativeDocumentMoniker": "frmAbout.resx",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.resx",
+              "RelativeToolTip": "frmAbout.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-03T09:34:00.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AboutVagSuite.png - PNG [328x321, 24 bits, PNG]",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\Resources\\RibbonIcons\\AboutVagSuite.png",
+              "RelativeDocumentMoniker": "Resources\\RibbonIcons\\AboutVagSuite.png",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\Resources\\RibbonIcons\\AboutVagSuite.png - PNG [328x321, 24 bits, PNG]",
+              "RelativeToolTip": "Resources\\RibbonIcons\\AboutVagSuite.png - PNG [328x321, 24 bits, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-03T09:33:59.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmAbout.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.cs",
+              "RelativeDocumentMoniker": "frmAbout.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\frmAbout.cs [Design]",
+              "RelativeToolTip": "frmAbout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:33:55.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\AppSettings.cs",
+              "RelativeDocumentMoniker": "AppSettings.cs",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\AppSettings.cs",
+              "RelativeToolTip": "AppSettings.cs",
+              "ViewState": "AgIAABUCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:32:53.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\app.config",
+              "RelativeDocumentMoniker": "app.config",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\app.config",
+              "RelativeToolTip": "app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-03T09:32:49.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VAGSuite",
+              "DocumentMoniker": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\VAGSuite.csproj",
+              "RelativeDocumentMoniker": "VAGSuite.csproj",
+              "ToolTip": "C:\\Users\\Administrateur\\Downloads\\VAGEDCSuite-master\\VAGEDCSuite-master\\VAGSuite.csproj",
+              "RelativeToolTip": "VAGSuite.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-03T09:31:54.173Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

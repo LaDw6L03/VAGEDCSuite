@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using ZedGraph;
 using ComponentFactory.Krypton.Toolkit;
@@ -27,7 +28,9 @@ namespace VAGSuite
             InitializeComponent();
             
             // Set the application icon
-            this.Icon = new System.Drawing.Icon("vagedc.ico");
+            string iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "vagedc.ico");
+            if (System.IO.File.Exists(iconPath))
+                this.Icon = new System.Drawing.Icon(iconPath);
             
             ApplyTheme();
             InitializeGraph();

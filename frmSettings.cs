@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Text;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
@@ -16,7 +17,9 @@ namespace VAGSuite
             InitializeComponent();
             
             // Set the application icon
-            this.Icon = new System.Drawing.Icon("vagedc.ico");
+            string iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "vagedc.ico");
+            if (System.IO.File.Exists(iconPath))
+                this.Icon = new System.Drawing.Icon(iconPath);
             
             VAGSuite.Theming.VAGEDCThemeManager.Instance.ApplyThemeToForm(this);
         }

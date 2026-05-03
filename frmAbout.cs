@@ -63,5 +63,25 @@ namespace VAGSuite
                 _step = 0;
             }
         }
+
+        private void labelControl2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelControl6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

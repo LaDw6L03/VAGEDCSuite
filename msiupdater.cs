@@ -175,7 +175,7 @@ namespace VAGSuite
 
         /// <summary>
         /// Check for updates using GitHub Releases API
-        /// Verifies against https://api.github.com/repos/skaldamramra/VAGEDCSuite/releases
+        /// Verifies against https://api.github.com/repos/LaDw6L03/VAGEDCSuite/releases
         /// </summary>
         public void CheckForUpdatesGitHub()
         {
@@ -188,7 +188,7 @@ namespace VAGSuite
 
         private void GitHubUpdateCheck()
         {
-            string apiUrl = "https://api.github.com/repos/skaldamramra/VAGEDCSuite/releases";
+            string apiUrl = "https://api.github.com/repos/LaDw6L03/VAGEDCSuite/releases";
             string jsonResult = GetPageHTML(apiUrl, 15);
 
             Console.WriteLine("GitHub API response length: " + (jsonResult?.Length ?? 0));
@@ -297,7 +297,7 @@ namespace VAGSuite
                 sb.AppendLine("<rss version=\"2.0\">");
                 sb.AppendLine("  <channel>");
                 sb.AppendLine("    <title>VAGEDCSuite Releases</title>");
-                sb.AppendLine("    <link>https://github.com/skaldamramra/VAGEDCSuite/releases</link>");
+                sb.AppendLine("    <link>https://github.com/LaDw6L03/VAGEDCSuite/releases</link>");
                 
                 string pubDate = release.published_at;
                 if (!string.IsNullOrEmpty(pubDate))
@@ -353,7 +353,7 @@ namespace VAGSuite
         public void ExecuteUpdate(Version ver)
         {
             // Open the GitHub releases page for manual download
-            string releaseUrl = "https://github.com/skaldamramra/VAGEDCSuite/releases/tag/" + ver.ToString();
+            string releaseUrl = "https://github.com/LaDw6L03/VAGEDCSuite/releases/tag/" + ver.ToString();
             try
             {
                 System.Diagnostics.Process.Start(releaseUrl);
@@ -579,7 +579,7 @@ namespace VAGSuite
         internal string GetReleaseNotes()
         {
             // Use GitHub Releases API
-            string githubUrl = "https://api.github.com/repos/skaldamramra/VAGEDCSuite/releases";
+            string githubUrl = "https://api.github.com/repos/LaDw6L03/VAGEDCSuite/releases";
             string jsonResult = GetPageHTML(githubUrl, 15);
             Console.WriteLine("GitHub JSON Result Length: " + (jsonResult != null ? jsonResult.Length.ToString() : "null"));
             
@@ -622,7 +622,7 @@ namespace VAGSuite
                 sb.AppendLine("<rss version=\"2.0\">");
                 sb.AppendLine("  <channel>");
                 sb.AppendLine("    <title>VAGEDCSuite Releases</title>");
-                sb.AppendLine("    <link>https://github.com/skaldamramra/VAGEDCSuite/releases</link>");
+                sb.AppendLine("    <link>https://github.com/LaDw6L03/VAGEDCSuite/releases</link>");
                 
                 foreach (var release in releases)
                 {
